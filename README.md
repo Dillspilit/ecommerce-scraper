@@ -42,7 +42,11 @@ git clone [https://github.com/your-username/ecommerce-scraper.git](https://githu
 cd ecommerce-scraper
 
 python3 -m venv .venv
+```
+```macOS/Linux
 source .venv/bin/activate  # macOS / Linux
+```
+```Windows
 .venv\Scripts\activate   # Windows
 ```
 * **2. Install Dependencies**
@@ -52,7 +56,6 @@ pip install -r requirements.txt
 ```
 * **3. Configure Environment Variables**
 ```Create a .env file in the root directory:
-
 BASE_URL=[https://books.toscrape.com/](https://books.toscrape.com/)
 OUTPUT_FILE=scraped_books.xlsx
 USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
