@@ -37,30 +37,29 @@ An automated Python data extraction pipeline that parses product catalog data fr
 ```
 ## 🚀 Quick Start
 * **1. Clone the Repository & Set Up Virtual Environment**
-Bash
-
+```Bash
 git clone [https://github.com/your-username/ecommerce-scraper.git](https://github.com/your-username/ecommerce-scraper.git)
 cd ecommerce-scraper
 
 python3 -m venv .venv
 source .venv/bin/activate  # macOS / Linux
 .venv\Scripts\activate   # Windows
-
+```
 * **2. Install Dependencies**
-Bash
+```Bash
 
 pip install -r requirements.txt
-
+```
 * **3. Configure Environment Variables**
-Create a .env file in the root directory:
-Фрагмент кода
+```Create a .env file in the root directory:
 
 BASE_URL=[https://books.toscrape.com/](https://books.toscrape.com/)
 OUTPUT_FILE=scraped_books.xlsx
 USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-
+```
 * **4. Run the Script**
-Bash
+```Bash
 
 python main.py
 
+```
