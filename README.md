@@ -35,8 +35,8 @@ An automated Python data extraction pipeline that parses product catalog data fr
 ├── .env              # Environment secrets (ignored by Git)
 └── .gitignore        # Git exclusion rules
 ```
-🚀 Quick Start
-1. Clone the Repository & Set Up Virtual Environment
+## 🚀 Quick Start
+* **1. Clone the Repository & Set Up Virtual Environment**
 Bash
 
 git clone [https://github.com/your-username/ecommerce-scraper.git](https://github.com/your-username/ecommerce-scraper.git)
@@ -44,14 +44,14 @@ cd ecommerce-scraper
 
 python3 -m venv .venv
 source .venv/bin/activate  # macOS / Linux
-# .venv\Scripts\activate   # Windows
+.venv\Scripts\activate   # Windows
 
-2. Install Dependencies
+* **2. Install Dependencies**
 Bash
 
 pip install -r requirements.txt
 
-3. Configure Environment Variables
+* **3. Configure Environment Variables**
 Create a .env file in the root directory:
 Фрагмент кода
 
@@ -59,7 +59,7 @@ BASE_URL=[https://books.toscrape.com/](https://books.toscrape.com/)
 OUTPUT_FILE=scraped_books.xlsx
 USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 
-4. Run the Script
+* **4. Run the Script**
 Bash
 
 python main.py
