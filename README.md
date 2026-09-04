@@ -34,7 +34,7 @@ An automated Python data extraction pipeline that parses product catalog data fr
 ├── requirements.txt  # Dependency list
 ├── .env              # Environment secrets (ignored by Git)
 └── .gitignore        # Git exclusion rules
-
+```
 🚀 Quick Start
 1. Clone the Repository & Set Up Virtual Environment
 Bash
@@ -63,3 +63,4 @@ USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 Bash
 
 python main.py
+
